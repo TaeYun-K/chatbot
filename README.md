@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-</head>
-<body>
-    <h1>📌 챗봇 사용 안내</h1>
-    <p>이 챗봇은 <strong>메신저봇R</strong>, <strong>FastAPI</strong>, <strong>Gemini API</strong>를 활용하여 사용자가 보낸 URL을 요약하여 제공하는 서비스입니다.</p>
-    
-    <h2>🚀 사용 방법</h2>
-    <ol>
-        <li>메신저봇R에서 챗봇과 대화를 시작합니다.</li>
-        <li>URL을 포함하여 <code>/요약 [URL]</code> 형식으로 메시지를 보냅니다.</li>
-        <li>챗봇이 URL을 분석하여 요약된 내용을 응답합니다.</li>
-    </ol>
-    
-    <h2>🛠️ 설치 방법</h2>
-    <p>이 프로젝트를 로컬에서 실행하려면 아래 단계를 따르세요:</p>
-    <pre>
-1. Python 3 설치 확인
-2. 필요한 라이브러리 설치:
-   <code>pip install fastapi uvicorn requests</code>
-3. FastAPI 서버 실행:
-   <code>uvicorn main:app --reload --host 0.0.0.0 --port 8000 </code>
-   
-4. 메신저봇R에서 FastAPI 엔드포인트를 설정하여 연동</pre>
-    
-    <h2>📞 문의</h2>
-    <p>문제가 발생하거나 개선 사항이 있다면 문의해 주세요!</p>
-</body>
-</html>
+# URL 요약 챗봇
+
+이 프로젝트는 **FastAPI**, **Gemini API**, **메신저봇R**을 활용하여 사용자가 보낸 **유튜브 링크**를 요약해주는 챗봇입니다.
+
+## 🛠 주요 기능
+1. 사용자가 **메신저봇R**에서 URL을 전송하면 이를 FastAPI 서버로 전달합니다.
+2. **FastAPI** 서버가 URL을 **Gemini API**에 보내 요약을 생성합니다.
+3. 생성된 요약을 **메신저봇R**을 통해 사용자에게 다시 전송합니다.
+
+## 🚀 사용법
+### 1. 환경 설정
+```bash
+git clone https://github.com/your-repo/url-summary-chatbot.git
+cd url-summary-chatbot
+pip install -r requirements.txt

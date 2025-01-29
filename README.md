@@ -15,5 +15,6 @@
 4. uvicorn 명령어로 fastapi 서버 오픈
 
 
+
 ### 🚀 자세한 정보
 [자세한 정보 블로그 참조](https://velog.io/@kty8600/%EB%A9%94%EC%8B%A0%EC%A0%80%EB%B4%87R%EA%B3%BC-gemini-api%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-chatbot-%EB%A7%8C%EB%93%A4%EA%B8%B0)

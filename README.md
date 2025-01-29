@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/a3676dba-f3dc-489b-b0e0-802038f09b78)
+
+
 # 자동 답장 챗봇
 
 이 프로젝트는 **FastAPI**, **Gemini API**, **메신저봇R**을 활용하여 사용자가 보낸 **카카오톡 문자**의  답장을 해주는 챗봇입니다.

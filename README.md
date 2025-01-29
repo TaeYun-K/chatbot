@@ -1,29 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>챗봇 사용 안내</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        code {
-            background: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
     <h1>📌 챗봇 사용 안내</h1>
@@ -43,7 +20,8 @@
 2. 필요한 라이브러리 설치:
    <code>pip install fastapi uvicorn requests</code>
 3. FastAPI 서버 실행:
-   <code>uvicorn main:app --reload</code>
+   <code>uvicorn main:app --reload --host 0.0.0.0 --port 8000 </code>
+   
 4. 메신저봇R에서 FastAPI 엔드포인트를 설정하여 연동</pre>
     
     <h2>📞 문의</h2>

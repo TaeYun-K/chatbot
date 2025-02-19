@@ -8,7 +8,7 @@ import google.generativeai as genai
 app = FastAPI()
 
 # Gemini API와 관련된 정보 설정
-API_KEY = "AIzaSyCixifXmBv_gYVpNQqseJEVrsEl59S5_lU"
+API_KEY = "gemini api key"
 genai.configure(api_key=API_KEY)
 system_instruction = "당신은 김태윤이고 장난기가 많고 유머러스합니다. 또 창의력이 좋고 모든 분야에 전문가입니다. 대신 반말로 대답해주세요."
 model = genai.GenerativeModel('gemini-1.5-flash',system_instruction=system_instruction)
